@@ -1,0 +1,263 @@
+@tailwind components;
+@tailwind utilities;
+
+.primary-background {
+  background-color: #242323;
+}
+
+.p-color-bn {
+  color: #afafaf;
+}
+
+.s-color-bn {
+  color: #d1d1d1;
+}
+
+.t-color-bn {
+  color: #767676;
+}
+
+.title {
+  font-size: 50px;
+}
+@media (min-width: 768px) {
+  .title {
+    font-size: 100px;
+  }
+}
+
+/******** -LEFT **************/
+.left-menu {
+  left: calc(-100vw - 16rem);
+}
+@media (min-width: 768px) {
+  .left-menu {
+    left: 0;
+  }
+}
+
+/******** -BACKGROUND COLOR TRASPARENT **************/
+.background-t {
+  background-color: #00000073;
+}
+
+/******** -BACKGROUND COLOR TRASPARENT **************/
+.color-text-white {
+  color: #ffffff;
+}
+
+/******** -DISPLAY:NONE **************/
+.display-none {
+  display: none;
+}
+/******** BORDER SOLID 1PX **************/
+.border-1 {
+  border: solid 1px #80808052;
+}
+
+.border-red-1 {
+  border: solid 1px #fc8181;
+}
+/******** BACKGROUND-BUTTON **************/
+.ant-skeleton-element {
+  display: flex !important;
+  padding-top: 1px !important;
+  padding-bottom: 1px !important;
+  margin-top: 1px !important;
+  margin-bottom: 1px !important;
+}
+.border-gray-59 {
+  border: solid 2px #595959;
+  border-radius: 8px;
+  border-style: dashed;
+}
+
+.background-boton {
+  background-color: #9e9e9e;
+}
+
+.border-radius-50 {
+  border-radius: 50%;
+}
+
+.outline-none:focus {
+  outline: none;
+}
+
+.header-black {
+  background-color: #3b3b3b;
+}
+
+.header-text {
+  color: #939393;
+}
+
+.menu-color {
+  background-color: #ebebeb;
+}
+
+.background-color-gray-f7 {
+  background-color: #f7f7f7;
+}
+
+.size-card {
+  width: 30%;
+}
+
+.border-top-none {
+  border-top: none;
+}
+
+.background-color-green {
+  background-color: #789a1c;
+}
+
+.background-color-red {
+  background-color: #d64242;
+}
+.size-quote {
+  width: 300px;
+}
+
+.text-small {
+  font-size: 0.7rem !important;
+}
+
+/* ████████████      TEXT SIZE     ██████████████ */
+
+.text-title {
+}
+.text-subtitle {
+}
+.text-small {
+  font-size: 0.7rem !important;
+}
+/* ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ */
+
+.button-red {
+  background-color: white !important;
+  color: #fc8181 !important;
+  border-color: #fc8181 !important ;
+}
+
+.button-orange {
+  background-color: #ff8f00 !important;
+  color: white !important;
+  border-color: #ff8f00 !important ;
+}
+
+.button-orange:hover {
+  background-color: white !important;
+  color: #ff8f00 !important;
+  border-color: #ff8f00 !important ;
+}
+.button-green {
+  background-color: #4e9a1c !important;
+  color: white !important;
+  border-color: #4e9a1c !important ;
+}
+
+.button-green:hover {
+  background-color: white !important;
+  color: #4e9a1c !important;
+  border-color: #4e9a1c !important ;
+}
+
+.ant-card-extra {
+  display: flex !important;
+  justify-content: center !important;
+  float: left !important;
+  /* margin-left: 50px !important; */
+  text-align: center !important;
+}
+
+.ant-modal-close {
+  outline: none !important;
+}
+
+.hoverAlert:hover div {
+  display: block;
+}
+
+.ant-carousel .slick-dots li.slick-active button {
+  background: #1890ff !important;
+  opacity: 1 !important;
+}
+.ant-carousel .slick-next::before {
+  content: ' ' !important;
+}
+
+.ant-carousel .slick-prev::before {
+  content: ' ' !important;
+}
+
+.ant-carousel .slick-dots li button {
+  background: #1890ff !important;
+}
+
+.button-transparent {
+  background: #f2f3f4 !important;
+  border-color: #f2f3f4 !important;
+}
+
+.color0 {
+  background-color: #adb0b3;
+}
+
+.color1 {
+  background-color: #ffd700;
+}
+.color2 {
+  background-color: #00008b;
+}
+.color3 {
+  background-color: #eeeaea;
+}
+.color4 {
+  background-color: #a0522d;
+}
+.color5 {
+  background-color: #fff8dc;
+}
+.color6 {
+  background-color: #000000;
+}
+.color7 {
+  background-color: #c0c0c0;
+}
+.color8 {
+  background-color: #808080;
+}
+.color9 {
+  background-color: #ff0000;
+}
+.color10 {
+  background-color: #8b0000;
+}
+.color11 {
+  background-color: #006400;
+}
+.color12 {
+  background-color: #87cefa;
+}
+.color13 {
+  background-color: #d2691e;
+}
+.color14 {
+  background-color: #daa520;
+}
+.color15 {
+  background-color: #dcdcdc;
+}
+.color16 {
+  background-color: #800000;
+}
+.color17 {
+  background-color: #ff8c00;
+}
+.color18 {
+  background-color: #ee82ee;
+}
+.color19 {
+  background-color: #fffff0;
+}

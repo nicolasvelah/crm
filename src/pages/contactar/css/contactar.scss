@@ -1,0 +1,114 @@
+.contactar {
+  margin: {
+    top: 5%;
+    right: 17%;
+    left: 8%;
+  }
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5%;
+  & > h3 {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  &-button {
+    display: flex;
+    justify-content: center;
+    &-send {
+      margin-left: 15%;
+    }
+  }
+  &-next {
+    @extend .contactar-button;
+    justify-content: flex-end;
+    &-btn {
+      margin: {
+        right: 9%;
+        left: 2rem;
+        bottom: 1rem;
+      }
+    }
+  }
+  &-identification {
+    margin-bottom: 0.6rem;
+  }
+}
+
+.validations {
+  display: flex;
+  align-items: center;
+  margin-left: 33%;
+  &-warning {
+    color: #f8c017;
+  }
+  &-error {
+    color: red;
+  }
+  &-icon {
+    font-size: 1.1rem;
+    margin: 0.5rem;
+  }
+  & > span {
+    font-weight: 400;
+  }
+}
+
+.tab-virtual {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+  &-btns {
+    display: flex;
+    flex-wrap: wrap;
+    & > button {
+      margin: {
+        top: 0.5rem;
+        left: 0.5rem;
+        right: 0.5rem;
+      }
+    }
+  }
+}
+.content-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  &-select {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    &-option {
+      margin: {
+        top: 0;
+        bottom: 0.8rem;
+        right: 1rem;
+        left: 1rem;
+      }
+    }
+  }
+  &-btn {
+    margin: {
+      top: 0.4rem;
+      bottom: 0.8rem;
+    }
+  }
+}
+
+.tab-virtual-btns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 10px 30px;
+}
+
+.tab-virtual-btn {
+  width: 100%;
+}

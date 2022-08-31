@@ -1,0 +1,202 @@
+#vchat-client {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+
+  .vchat-client-header {
+    height: 50px;
+    padding: 10px;
+    background-color: #051629;
+  }
+
+  .vchat-client-container-video {
+    height: calc(100% - 50px);
+    .vchat-client-preview {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .vchat-client-preview__video-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .vchat-client-preview__video {
+          background-color: #000000;
+        }
+        .vchat-client-preview__buttons {
+          margin-top: 10px;
+          display: flex;
+          justify-content: center;
+          button {
+            margin: 0px 5px;
+          }
+        }
+      }
+
+      .vchat-client-preview__text {
+        text-align: center;
+        padding: 20px;
+        margin: 20px;
+      }
+    }
+
+    .vchat-client-incall {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      .vchat-client-incall-main {
+        width: 100%;
+        transition: ease 0.3s;
+        height: 100%;
+        .vchat-client-incall-main__video-container {
+          background-color: #5555;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+          .vchat-client-incall-main__video-container-videos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            .vchat-client-incall-main__video {
+              width: 50%;
+              video {
+                max-height: 300px;
+                width: 100%;
+                background-color: #000;
+              }
+              & .active-screen {
+                max-height: 100px;
+              }
+            }
+            & .video-client {
+              position: relative;
+              .container_button {
+                position: absolute;
+                bottom: 5%;
+                left: calc(50% - 50px);
+                right: calc(50% - 50px);
+                width: 100px;
+                display: flex;
+                justify-content: center;
+                button {
+                  margin: 0px 2px;
+                }
+              }
+            }
+          }
+
+          .vchat-client-incall-main__screen-container {
+            height: calc(100% - 150px);
+            width: 100%;
+            video {
+              height: 100%;
+              width: 100%;
+            }
+          }
+        }
+      }
+      & .active-chat-main {
+        width: calc(100% - 250px);
+        margin-left: 250px;
+      }
+
+      .vchat-client-incall-chat {
+        position: absolute;
+        top: 0;
+        left: -250px;
+        width: 250px;
+        height: 100%;
+        transition: ease 0.3s;
+      }
+      & .active-chat {
+        left: 0;
+      }
+
+      .button-chat {
+        margin-left: 100%;
+        margin-top: 5px;
+        border-radius: 0px 50% 50% 0px;
+      }
+    }
+  }
+}
+
+.loading-vchat {
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  right: 0;
+  left: 0;
+
+  .loading-vchat_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .vchat-client-preview {
+    flex-direction: column;
+    .vchat-client-preview__video-container {
+      width: 100%;
+      .vchat-client-preview__video {
+        width: 100%;
+        video {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .vchat-client-incall-main__video-container-videos {
+    flex-direction: column;
+    justify-content: start !important;
+    padding-top: 20px;
+    width: 100%;
+    .vchat-client-incall-main__video {
+      width: 100% !important;
+    }
+  }
+
+  .vchat-client-incall-main {
+    width: 100%;
+    transition: ease 0.3s;
+    height: 100%;
+    margin-left: 0px !important;
+  }
+  & .active-chat-main {
+    height: calc(100% - 250px);
+    width: 100% !important;
+  }
+
+  .vchat-client-incall-chat {
+    top: unset !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 45px !important;
+    width: 100% !important;
+    height: 0px !important;
+    #chat {
+      display: none;
+    }
+  }
+  & .active-chat {
+    #chat {
+      display: block;
+    }
+
+    bottom: 10px !important;
+    height: 250px !important;
+  }
+  .button-chat {
+    margin-left: 10px !important;
+    border-radius: 50% !important;
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#1f6fd0",
+    "activityBar.activeBorder": "#ee90bb",
+    "activityBar.background": "#1f6fd0",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#ee90bb",
+    "activityBarBadge.foreground": "#15202b",
+    "statusBar.background": "#1857a4",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#1f6fd0",
+    "titleBar.activeBackground": "#1857a4",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#1857a499",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "peacock.color": "#1857a4",
+  "sqltools.connections": [
+    {
+      "mssqlOptions": {
+        "appName": "SQLTools",
+        "useUTC": true,
+        "encrypt": true
+      },
+      "previewLimit": 50,
+      "server": "45.55.61.195",
+      "port": 1600,
+      "driver": "MSSQL",
+      "name": "CRM",
+      "database": "CRM",
+      "username": "SA",
+      "password": "ptyk.2533"
+    },
+    {
+      "mysqlOptions": {
+        "authProtocol": "default"
+      },
+      "previewLimit": 50,
+      "server": "157.245.234.229",
+      "port": 3306,
+      "driver": "MySQL",
+      "name": "DAS",
+      "group": "DIGITAL OCEAN",
+      "username": "dastechMYSQL",
+      "password": "q@Rs&c9sdefgNE%",
+      "database": "dasdb"
+    }
+  ]
+}

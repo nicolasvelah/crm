@@ -1,0 +1,132 @@
+.funnel-level {
+  flex: 1;
+  display: 'flex';
+  justify-content: 'center';
+  flex-direction: 'column';
+  border-right: 30px solid transparent;
+  border-left: 30px solid transparent;
+  border-top: 50px solid;
+  background: none !important;
+}
+.funnel-level span {
+  display: block;
+  position: relative;
+  margin-top: -30px;
+}
+.funnel-level-1 {
+  width: 450px;
+  border-top-color: rgba(53, 195, 201, 0.4);
+  color: rgba(53, 195, 201, 1);
+}
+.funnel-level-2 {
+  width: 390px;
+  border-top-color: rgba(53, 201, 161, 0.4);
+  color: rgba(53, 201, 161, 1);
+}
+.funnel-level-3 {
+  width: 330px;
+  border-top-color: rgba(53, 201, 93, 0.4);
+  color: rgba(53, 201, 93, 1);
+}
+.funnel-level-4 {
+  width: 270px;
+  border-top-color: rgba(110, 201, 53, 0.4);
+  color: rgba(110, 201, 53, 1);
+}
+.funnel-level-5 {
+  width: 210px;
+  border-top-color: rgba(161, 201, 53, 0.4);
+  color: rgba(161, 201, 53, 1);
+}
+.funnel-level-6 {
+  width: 150px;
+  border-top-color: rgba(201, 184, 53, 0.4);
+  color: rgba(201, 184, 53, 1);
+}
+.funnel-level-7 {
+  width: 90px;
+  border-top-color: rgba(201, 127, 53, 0.4);
+  color: rgba(201, 127, 53, 1);
+  border-right: 0px solid transparent;
+  border-left: 0px solid transparent;
+}
+.funnel-level-8 {
+  width: 90px;
+  border-top-color: rgba(201, 59, 53, 0.4);
+  color: rgba(201, 59, 53, 1);
+  border-right: 0px solid transparent;
+  border-left: 0px solid transparent;
+}
+
+.funnel-lavel-name {
+  margin: 16px 0 36px;
+}
+.funnel-percentages {
+  position: absolute;
+  bottom: 50px;
+  right: 0;
+  width: 230px;
+}
+.funnel-percentages-items {
+/*   margin-bottom: 35px; */
+  font-size: 11px;
+}
+.funnel-percentages-item-1 {
+  padding-left: 80px;
+}
+.funnel-percentages-item-2 {
+  padding-left: 50px;
+}
+.funnel-percentages-item-3 {
+  padding-left: 20px;
+}
+
+.funnel-tag-containner{
+  margin: 20px 0px;
+}
+.funnel-tag-xl{
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 10px;
+  width: 12.5%;
+  text-align: center;
+}
+.funnel-tag-1{
+  background-color: #F89829;
+  color: #fff;
+}
+.funnel-tag-2{
+  background-color: #FFF0F6;
+  color: #EC3A9C;
+  border: 1px solid #FFB2D4;
+}
+.funnel-tag-3{
+  background-color: #FFF2E9;
+  color: #FA6E3E;
+  border: 1px solid #FFBF9D;
+}
+.funnel-tag-4{
+  background-color: #FFF7E6;
+  color: #FB8F1F;
+  border: 1px solid #FFD797;
+}
+.funnel-tag-5{
+  background-color: #FFFCE6;
+  color: #FCB93D;
+  border: 1px solid #FFE58F;
+}
+.funnel-tag-6{
+  background-color: #FCFFE6;
+  color: #A1D92C;
+  border: 1px solid #F0FDB2;
+}
+.funnel-tag-7{
+  background-color: #F6FFED;
+  color: #53C427;
+  border: 1px solid #B8EC8F;
+}
+.funnel-tag-8{
+  background-color: #E6FFFB;
+  color:#41D1D0;
+  border: 1px solid #87E9DE;
+}

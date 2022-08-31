@@ -1,0 +1,54 @@
+.quote h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.quote h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.quoteResult {
+  border: 1px solid #dedede;
+  padding: 20px;
+}
+.quoteResult h2 {
+  font-size: 22px;
+  font-weight: bold;
+}
+.quoteVehicleImg {
+  max-width: 250px;
+}
+.quoteNatural {
+  position: relative;
+}
+.quoteClosed {
+  border-color: rgb(255, 85, 0) !important;
+  border-width: 1px !important;
+}
+.topTags {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  z-index: 9;
+}
+.quoteCardFooter {
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+}
+
+.space-top-20 {
+  margin-top: 20px;
+}
+
+.space-bottom-20 {
+  margin-bottom: 20px;
+}
+
+.font-weight-bold {
+  font-weight: bold;
+}
+
+.vim:hover {
+  background-color: #e6f7ffc4 !important;
+}

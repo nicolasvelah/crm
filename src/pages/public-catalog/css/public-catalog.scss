@@ -1,0 +1,139 @@
+.main-public-catalog {
+  padding: 3% 5%;
+  max-width: 1080px;
+  margin: auto;
+}
+
+.p-modal {
+  padding: 3%;
+  margin-right: 12%;
+}
+
+.recaptcha-modal {
+  -webkit-transform: scale(0.84);
+  -moz-transform: scale(0.84);
+  -ms-transform: scale(0.84);
+  -o-transform: scale(0.84);
+  transform: scale(0.84);
+}
+
+.p-modal-finish {
+  padding: 5%;
+}
+.p-height {
+  height: 470px;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+.ant-carousel .slick-dots li button {
+  background: #f2f3f4 !important;
+  opacity: 0.6 !important;
+}
+
+.ant-carousel .slick-dots li.slick-active button {
+  opacity: 1 !important;
+  background: #f2f3f4 !important;
+}
+
+/* Estilos para contenedor de notificaciones y seguimientos */
+.container-sucursal p:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+/* Tamaño del scroll */
+.container-sucursal::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Estilos barra (thumb) de scroll */
+.container-sucursal::-webkit-scrollbar-thumb {
+  background: rgb(211, 211, 211);
+  border-radius: 4px;
+}
+
+.container-sucursal::-webkit-scrollbar-thumb:active {
+  background-color: #999999;
+}
+
+.container-sucursal::-webkit-scrollbar-thumb:hover {
+  background: #b3b3b3;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos track de scroll */
+.container-sucursal::-webkit-scrollbar-track {
+  background: #ececec;
+  border-radius: 4px;
+}
+
+.msg-recaptcha {
+  color: red;
+  display: flex;
+  justify-content: flex-end;
+}
+.recaptcha-modal {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+.select-user-main {
+  display: flex;
+  flex-direction: column;
+}
+.select-user {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+.error-user {
+  color: red;
+}
+
+.my-drawer.ant-drawer-open {
+  // width: 100% !important; // mask: false
+  > .ant-drawer-content-wrapper {
+    width: 1024px !important;
+  }
+}
+
+@media (max-width: 1020px) {
+  .my-drawer.ant-drawer-open {
+    > .ant-drawer-content-wrapper {
+      width: 100% !important;
+    }
+  }
+}
+
+@media (min-width: 600px) {
+  /* For tablets: */
+  .p-modal-left {
+    margin-top: 20px;
+    padding: 3% 5%;
+    margin-right: 8%;
+  }
+  .recaptcha-modal {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@media (min-width: 768px) {
+  /* For desktop: */
+  .p-modal-left {
+    margin-top: 20px;
+    padding: 3% 5%;
+    margin-right: 8%;
+  }
+
+  .recaptcha-modal {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
+}

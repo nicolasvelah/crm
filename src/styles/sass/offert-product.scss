@@ -1,0 +1,28 @@
+.container-offert {
+    position: absolute;
+    top: 8px;
+    left: -36px;
+    transform: rotate(-45deg);
+    z-index: 1;
+   
+
+    width: 120px;
+    border-right: 30px solid transparent;
+    border-left: 30px solid transparent;
+    border-bottom: 30px solid #E24C32;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-offert-text {
+    position: absolute;
+    top: 13px;
+    left: -10px;
+    transform: rotate(-45deg);
+    z-index: 2;
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+}

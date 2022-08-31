@@ -1,0 +1,88 @@
+.DashboardModule {
+  margin: 0 10px;
+}
+
+.notificacionItem {
+  cursor: pointer;
+  display: block;
+  width: 100%;
+}
+.notificacionItem h6 {
+  margin: 0;
+}
+.notificacionItemMessage {
+  margin: 0;
+  font-size: 12px;
+}
+.notificacionItemTime {
+  margin: 0;
+  font-size: 9px;
+  color: gray;
+}
+
+.misnotificacionesHeader span {
+  font-size: 20px;
+  margin-right: 5px;
+}
+.misseguimientosItemIcon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.readMarker {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background: white;
+  margin: 15px auto 0;
+}
+
+.readMarker.active {
+  background: #f89829;
+}
+
+.ontime {
+  color: green;
+}
+.late {
+  color: red;
+}
+.closed {
+  color: #108ee9;
+}
+
+.container-notification{
+  box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
+  border-radius: 5px;
+  border: 1px solid #e0e4e6;
+}
+/* Estilos para contenedor de notificaciones y seguimientos */
+.container-notification p:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+/* Tamaño del scroll */
+.container-notification::-webkit-scrollbar {
+  width: 8px;
+}
+
+ /* Estilos barra (thumb) de scroll */
+.container-notification::-webkit-scrollbar-thumb {
+  background: rgb(211, 211, 211);
+  border-radius: 4px;
+}
+
+.container-notification::-webkit-scrollbar-thumb:active {
+  background-color: #999999;
+}
+
+.container-notification::-webkit-scrollbar-thumb:hover {
+  background: #b3b3b3;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+ /* Estilos track de scroll */
+.container-notification::-webkit-scrollbar-track {
+  background: #ececec;
+  border-radius: 4px;
+}

@@ -1,0 +1,4 @@
+.ant-modal-confirm-body {
+    display: flex;
+    flex-direction: column;
+}
